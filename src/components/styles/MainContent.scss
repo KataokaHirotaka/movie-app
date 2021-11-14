@@ -1,0 +1,62 @@
+.movie_content-title {
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #dfdfdf;
+  padding: 10px 0;
+}
+
+.movie-title {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.movie-list {
+  padding: 2px;
+  cursor: pointer;
+}
+
+.movie-poster {
+  width: 154px;
+  height: 231px;
+  border-radius: 3px;
+}
+
+.movie_content-wrapper {
+  position: relative;
+}
+// ----カルーセルスライダー------
+
+// TODOスクロール禁止
+.slider-list {
+  width: 200px;
+}
+
+.slides {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  span {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 58%;
+    right: 4%;
+    z-index: 20;
+    transform: rotate(45deg);
+    border-top: 4px solid #fff;
+    border-right: 4px solid #fff;
+  }
+}
+
+.slides::after {
+  content: '';
+  width: 123px;
+  height: 231px;
+  background-color: #00000061;
+  position: absolute;
+  top: 24%;
+  right: 0%;
+  border-radius: 3px;
+  cursor: pointer;
+  z-index: 10;
+}

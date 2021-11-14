@@ -1,0 +1,52 @@
+.movie-list.result {
+  border: 12px solid #dfdfdf;
+  padding: 20px 20px 60px 20px;
+  width: 50%;
+  margin: 0 auto;
+
+}
+
+.movie-list-content {
+  display: flex;
+  .movie-title {
+    font-size: 18px;
+  }
+
+  p {
+    text-align: left;
+  }
+}
+
+.overview-title {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.movie-poster {
+  line-height: 247px;
+}
+
+.movie-data-wrapper {
+  padding: 0px 20px;
+}
+
+.movie-overview {
+  // padding: 10px;
+  font-size: 14px;
+}
+
+.check-button-wrapper {
+  text-align: left;
+  margin-top: 10px;
+}
+
+.check-button {
+  font-size: 10px;
+  font-weight: bold;
+  width: 30%;
+  padding: 10px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
